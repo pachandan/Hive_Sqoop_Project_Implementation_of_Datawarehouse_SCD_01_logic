@@ -1,0 +1,1 @@
+nohup hive --service metastore &

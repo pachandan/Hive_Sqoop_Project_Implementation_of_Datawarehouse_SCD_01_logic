@@ -1,0 +1,4 @@
+mysql successfully executed at 20220629_14:14:23
+sqoop loading  completed 20220629_14:14:23
+hive scd successfully executed at 20220629_14:14:23
+sqoop exp job successfully executed at 20220629_14:14:23

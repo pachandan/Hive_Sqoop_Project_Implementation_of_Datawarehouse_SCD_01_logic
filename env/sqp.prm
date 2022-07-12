@@ -1,0 +1,10 @@
+HOST=localhost
+PORT_NO=3306
+DB_NAME=retail_db
+USERNAME=root
+PASSWORD_FILE=file:///home/saif/cohort_f10_f11/datasets/sqoop.pwd
+TABLE_NAME=customer_p_day_1
+TABLE_NAME2=orders
+QUERY="select p.product_id ,p.product_name,o.order_item_product_id ,o.order_item_product_price from order_items o join products p on o.order_item_product_id=p.product_id where \$CONDITIONS"
+OP_DIR=/user/saif/HFS/Output/
+
